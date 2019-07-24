@@ -15,10 +15,15 @@ public class TesteConta {
 		c2.saldo = 2000;
 		c1.limite = 1500;
 		c2.limite = 3000;
+		c1.depositar(125);
+		c1.sacar(15);
 		
 		System.out.println("Numero: " + c1.numero);
-		System.out.println("saldo: "+c1.saldo);
-		System.out.println("limite: " + c1.limite+"\n");
+		System.out.print("saldo: "+c1.mostrarSaldo()+"\n");
+		System.out.println("limite: " + c1.limite);
+		System.out.println(c1.extrato()+"\n");;
+		
+		
 		System.out.println("Numero: " + c1.numero);
 		System.out.print("saldo: "+c1.saldo+"\n");
 		System.out.println("limite: " + c1.limite);
