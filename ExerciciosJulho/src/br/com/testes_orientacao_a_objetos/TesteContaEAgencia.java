@@ -3,7 +3,7 @@ package br.com.testes_orientacao_a_objetos;
 import br.com.orientacao_a_objetos.Agencia;
 import br.com.orientacao_a_objetos.Conta;
 
-public class TesteContaAgencia {
+public class TesteContaEAgencia {
 	
 	public static void main(String[] args) {
 		
