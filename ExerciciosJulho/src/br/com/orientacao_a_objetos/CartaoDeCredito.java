@@ -7,5 +7,11 @@ public class CartaoDeCredito {
 		public int numeroCartao;
 		public String dataValidade;
 		public Cliente cliente;
+		
+		public void CartaoDeCerdito(int numeroCartao) {
+			
+			this.numeroCartao = numeroCartao;
+			
+		}
 
 }
