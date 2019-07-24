@@ -5,8 +5,8 @@ import br.com.orientacao_a_objetos.Agencia;
 public class TesteAgencia {
 
 	public static void main(String[] args) {
-		Agencia ramiro = new Agencia();
-		Agencia centro = new Agencia();
+		Agencia ramiro = new Agencia(0);
+		Agencia centro = new Agencia(0);
 
 		ramiro.numeroAgencia = 15;
 		centro.numeroAgencia = 25;

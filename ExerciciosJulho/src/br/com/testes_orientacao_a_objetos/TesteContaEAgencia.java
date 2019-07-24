@@ -9,7 +9,7 @@ public class TesteContaEAgencia {
 		
 		Conta c1 = new Conta();
 		Conta c2 = new Conta();
-		Agencia agenciaNova = new Agencia();
+		Agencia agenciaNova = new Agencia(0);
 		agenciaNova.numeroAgencia = 15;
 
 		c1.numero=10001;
