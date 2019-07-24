@@ -6,5 +6,6 @@ public class CartaoDeCredito {
 	
 		public int numeroCartao;
 		public String dataValidade;
+		public Cliente cliente;
 
 }
