@@ -8,11 +8,11 @@ public class TesteAgencia {
 		Agencia ramiro = new Agencia(0);
 		Agencia centro = new Agencia(0);
 
-		ramiro.numeroAgencia = 15;
-		centro.numeroAgencia = 25;
+		ramiro.setNumeroAgencia(15);
+		centro.setNumeroAgencia(25);
 
-		System.out.println("Agencia: " + ramiro.numeroAgencia + "\n");
-		System.out.println("Agencia: " + centro.numeroAgencia + "\n");
+		System.out.println("Agencia: " + ramiro.getNumeroAgencia() + "\n");
+		System.out.println("Agencia: " + centro.getNumeroAgencia() + "\n");
 
 	}
 

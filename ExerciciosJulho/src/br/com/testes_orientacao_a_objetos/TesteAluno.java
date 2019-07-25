@@ -10,22 +10,22 @@ public class TesteAluno {
 	Aluno a1 = new Aluno();
 	Aluno a2 = new Aluno();
 	
-	a1.nome = "Lucas Murta";
-	a2.nome = "Lucas Daniel";
+	a1.setNome("Lucas Murta");
+	a2.setNome("Lucas Daniel");
 	
-	a1.dtnascimento = "11/01/1993";
-	a2.dtnascimento = "12/02/1996";
+	a1.setDtnascimento("11/01/1993");
+	a2.setDtnascimento("12/02/1996");
 			
-	a1.rg = 654425142;
-	a2.rg = 54147887;		
+	a1.setRg(654425142);
+	a2.setRg(54147887);		
 	
-	System.out.println("nome: "+ a1.nome);
-	System.out.println("rg: "+ a1.rg);
-	System.out.println("data nacimento: "+ a1.dtnascimento);
+	System.out.println("nome: "+ a1.getNome());
+	System.out.println("rg: "+ a1.getRg());
+	System.out.println("data nacimento: "+ a1.getDtnascimento());
 	
-	System.out.println("nome: "+ a2.nome);
-	System.out.println("rg: "+ a2.rg);
-	System.out.println("data nacimento: "+ a2.dtnascimento);
+	System.out.println("nome: "+ a2.getNome());
+	System.out.println("rg: "+ a2.getRg());
+	System.out.println("data nacimento: "+ a2.getDtnascimento());
 	
 }
 

@@ -9,17 +9,17 @@ public class TesteCliente {
 		Cliente cl1 = new Cliente();
 		Cliente cl2 = new Cliente();
 		
-		cl1.nomeCliente = "João da Silva";
-		cl1.codigoCliente = 1234;
+		cl1.setNomeCliente("João da Silva");
+		cl1.setCodigoCliente(1234);
 		
-		cl2.nomeCliente = "Luana lumier";
-		cl2.codigoCliente = 4321;
+		cl2.setNomeCliente("Luana lumier");
+		cl2.setCodigoCliente(4321);
 		
-		System.out.println("nome: "+ cl1.nomeCliente);
-		System.out.println("codigoe: "+ cl1.codigoCliente);
+		System.out.println("nome: "+ cl1.getNomeCliente());
+		System.out.println("codigoe: "+ cl1.getCodigoCliente());
 		
-		System.out.println("nome: "+ cl2.nomeCliente);
-		System.out.println("codigoe: "+ cl2.codigoCliente);
+		System.out.println("nome: "+ cl2.getNomeCliente());
+		System.out.println("codigoe: "+ cl2.getCodigoCliente());
 		
 		
 	}

@@ -9,24 +9,24 @@ public class TesteAlunoTurma {
 		Aluno a1 = new Aluno();
 		Turma t1 = new Turma();
 		
-		a1.nome = "Zequinha";
-		a1.rg = 84511663;
-		a1.dtnascimento = "11/05/1995";
+		a1.setNome("Zequinha");
+		a1.setRg(84511663);
+		a1.setDtnascimento("11/05/1995");
 		
-		t1.periodo = "matutino";
-		t1.serie = "1º";
-		t1.sigla = "101";
-		t1.tipo = "regular";
+		t1.setPeriodo("matutino");
+		t1.setSerie("1º");
+		t1.setSigla("101");
+		t1.setTipo("regular");
 		
-		a1.turma = t1;
+		a1.setTurma(t1);
 		
-		System.out.println("Aluno: "+a1.nome);
-		System.out.println("Aluno rg: "+a1.rg);
-		System.out.println("Data de nascimento: "+a1.dtnascimento);
-		System.out.println("Periodo: "+a1.turma.periodo);
-		System.out.println("Serie: "+a1.turma.serie);
-		System.out.println("Sigla Turma: "+a1.turma.sigla);
-		System.out.println("Tipo Turma: "+a1.turma.tipo);
+		System.out.println("Aluno: "+a1.getNome());
+		System.out.println("Aluno rg: "+a1.getRg());
+		System.out.println("Data de nascimento: "+a1.getDtnascimento());
+		System.out.println("Periodo: "+a1.getTurma().getPeriodo());
+		System.out.println("Serie: "+a1.getTurma().getSerie());
+		System.out.println("Sigla Turma: "+a1.getTurma().getSigla());
+		System.out.println("Tipo Turma: "+a1.getTurma().getTipo());
 	
 	}
 
