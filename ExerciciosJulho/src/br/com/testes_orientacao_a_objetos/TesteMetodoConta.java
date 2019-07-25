@@ -27,6 +27,7 @@ public class TesteMetodoConta {
 		System.out.println("Numero: " + c1.numero);
 		System.out.print("saldo: "+c1.saldo+"\n");
 		System.out.println("limite: " + c1.limite);
+		System.out.println(Conta.contador);
 		
 
 	}

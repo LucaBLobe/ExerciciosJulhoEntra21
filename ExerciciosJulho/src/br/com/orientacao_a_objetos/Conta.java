@@ -6,9 +6,11 @@ public class Conta {
 	public double saldo;
 	public double limite = 100.0;
 	public Agencia agencia;
+	public static int contador;
 	
 	public Conta(Agencia agencia) {
 		this.agencia = agencia;
+		Conta.contador++; 
 	}
 	
 	public void depositar(double valor) {
