@@ -7,8 +7,8 @@ public class TesteContaEAgencia {
 	
 	public static void main(String[] args) {
 		
-		Conta c1 = new Conta();
-		Conta c2 = new Conta();
+		Conta c1 = new Conta(null);
+		Conta c2 = new Conta(null);
 		Agencia agenciaNova = new Agencia(0);
 		agenciaNova.numeroAgencia = 15;
 

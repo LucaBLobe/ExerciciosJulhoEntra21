@@ -3,8 +3,8 @@ package br.com.orientacao_a_objetos;
 public class Funcionario {
 	
 	public String nome;
-	public double salFuncionario;
-	public double valRefeicaoDia;
+	public double salFuncionario = 1000.0;
+	
 	
 	public void AumentaSalario(double valor) {
 		salFuncionario += valor;

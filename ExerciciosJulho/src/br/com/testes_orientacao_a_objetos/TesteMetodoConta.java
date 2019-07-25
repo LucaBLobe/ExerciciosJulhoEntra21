@@ -2,12 +2,12 @@ package br.com.testes_orientacao_a_objetos;
 
 import br.com.orientacao_a_objetos.Conta;
 
-public class TesteConta {
+public class TesteMetodoConta {
 
 	public static void main(String[] args) {
 		
-		Conta c1 = new Conta();
-		Conta c2 = new Conta();
+		Conta c1 = new Conta(null);
+		Conta c2 = new Conta(null);
 		
 		c1.numero = 10001;
 		c2.numero = 10002;

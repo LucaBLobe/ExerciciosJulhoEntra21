@@ -7,6 +7,10 @@ public class Conta {
 	public double limite = 100.0;
 	public Agencia agencia;
 	
+	public Conta(Agencia agencia) {
+		this.agencia = agencia;
+	}
+	
 	public void depositar(double valor) {
 		this.saldo += valor;
 	}
@@ -21,6 +25,12 @@ public class Conta {
 
 	public String extrato() {
 		return "Saldo: " + saldo + "\n" + "Limite: " + limite;
+
+	}
+	public void transferencia(Conta recebe, double valor) {
+		this.saldo -= valor;
+		recebe.saldo += valor;
+		
 
 	}
 	
