@@ -10,10 +10,10 @@ public class TesteFuncionario2 {
 		Funcionario funcionario = new Funcionario();
 		String opcao = "S";
 		while (!(opcao.equalsIgnoreCase("n"))) {
-			funcionario.nome = Teclado.lerTexto("Digite o nome do funcionario: ");
-			funcionario.salFuncionario = Teclado.lerDouble("Digite seu salario: ");
-			System.out.println("nome funcionario: " + funcionario.nome);
-			System.out.println("salario funcionario funcionario: R$"+ funcionario.salFuncionario);
+			funcionario.setNome(Teclado.lerTexto("Digite o nome do funcionario: "));
+			funcionario.setSalFuncionario(Teclado.lerDouble("Digite seu salario: "));
+			System.out.println("nome funcionario: " + funcionario.getNome());
+			System.out.println("salario funcionario funcionario: R$"+ funcionario.getSalFuncionario());
 			opcao = Teclado.lerTexto("Dseja alterar o nome do usuario:(S/N) ");
 
 		}
