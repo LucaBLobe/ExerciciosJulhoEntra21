@@ -20,9 +20,13 @@ public class TesteFuncionario {
 		f1.ConsultaDados();
 		f2.ConsultaDados();
 		
+		
 		System.out.println("");
 		System.out.println("Numero: " + f1.nome);
 		System.out.println("Salário: " + f1.salFuncionario);
+		System.out.println(f1.valRefeicaoDia);
+		f1.AlteraValeRefeicao(-50.0);
+		System.out.println(f1.valRefeicaoDia);
 		
 		System.out.println("Numero: " + f2.nome);
 		System.out.println("Salário: " + f2.salFuncionario);

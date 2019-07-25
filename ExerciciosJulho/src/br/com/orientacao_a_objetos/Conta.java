@@ -7,10 +7,12 @@ public class Conta {
 	public double limite = 100.0;
 	public Agencia agencia;
 	public static int contador;
+	public int numeroID;
 	
 	public Conta(Agencia agencia) {
 		this.agencia = agencia;
 		Conta.contador++; 
+		this.numeroID = contador;
 	}
 	
 	public void depositar(double valor) {
@@ -32,8 +34,11 @@ public class Conta {
 	public void transferencia(Conta recebe, double valor) {
 		this.saldo -= valor;
 		recebe.saldo += valor;
-		
-
+	}
+	public double zeraContador() {
+		int qtConta = contador;
+		contador = 0;
+		return qtConta;
 	}
 	
 }

@@ -21,14 +21,16 @@ public class TesteMetodoConta {
 		System.out.println("Numero: " + c1.numero);
 		System.out.print("saldo: "+c1.mostrarSaldo()+"\n");
 		System.out.println("limite: " + c1.limite);
-		System.out.println(c1.extrato()+"\n");;
+		System.out.println(c1.extrato());
+		System.out.println("ID conta: " + c1.numeroID+"\n");
 		
-		
-		System.out.println("Numero: " + c1.numero);
-		System.out.print("saldo: "+c1.saldo+"\n");
-		System.out.println("limite: " + c1.limite);
-		System.out.println(Conta.contador);
-		
+		System.out.println("Numero: " + c2.numero);
+		System.out.print("saldo: "+c2.saldo+"\n");
+		System.out.println("limite: " + c2.limite);
+		System.out.println("ID conta: " + c2.numeroID+"\n");
+		System.out.println("quantidade de contas: " + Conta.contador+"\n");
+		c1.zeraContador();
+		System.out.println("quantidade de contas: " + Conta.contador+"\n");
 
 	}
 
