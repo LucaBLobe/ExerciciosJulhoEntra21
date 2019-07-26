@@ -24,6 +24,7 @@ public abstract class Conta {
 		this.limite = limite;
 	}
 
-	
+	public abstract void imprimeExtratoDetalhado();
+
 
 }

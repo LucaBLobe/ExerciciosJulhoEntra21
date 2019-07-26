@@ -14,7 +14,8 @@ public class TestaConta {
 		System.out.println("Numero: " + c1.getNumero());
 		System.out.print("saldo: "+c1.getSaldo()+"\n");
 		System.out.println("limite: " + c1.getLimite());
-		
+		System.out.println("");
+		c1.imprimeExtratoDetalhado();
 		
 	}
 
