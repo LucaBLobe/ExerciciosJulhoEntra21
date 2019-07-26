@@ -19,5 +19,7 @@ public interface IConta {
 	
 	public double mostrarSaldo();
 	
+	public void geradorDeExtratos();
+	
 
 }

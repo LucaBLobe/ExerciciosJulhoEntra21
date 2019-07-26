@@ -18,6 +18,12 @@ public class TesteConta {
 		System.out.println("");
 		System.out.println("Numero: "+poupa1.getNumero());
 		System.out.println("saldo: "+poupa1	.getSaldo());
+		System.out.println("");
+		
+		poupa1.geradorDeExtratos();
+		System.out.println("");
+		conta1.geradorDeExtratos();
+		
 		
 	}
 

@@ -61,6 +61,12 @@ public class ContaPoupanca implements IConta{
 		
 		return saldo;
 	}
+
+	@Override
+	public void geradorDeExtratos() {
+		System.out.println("Numero Conta: " + numero + "\n" + "Saldo: " + saldo);
+		
+	}
 	
 
 }
