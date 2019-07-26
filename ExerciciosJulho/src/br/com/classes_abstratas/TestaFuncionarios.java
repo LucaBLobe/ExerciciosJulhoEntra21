@@ -10,6 +10,8 @@ public class TestaFuncionarios {
 		
 		System.out.println("nome: "+fun.getNome());
 		System.out.println("Salario: "+fun.getSalFuncionario());
+		fun.bonificacao();
+		System.out.println("Salario: "+fun.getSalFuncionario());
 		
 	}
 	

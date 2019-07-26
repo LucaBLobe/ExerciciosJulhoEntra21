@@ -6,6 +6,7 @@ import java.util.Date;
 public class ContaPoupanca extends Conta {
 	SimpleDateFormat data = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 	
+	@Override
 	public void imprimeExtratoDetalhado(){
 		System.out.println("EXTRATO DETALHADO DE CONTA POUPANÇA");
 		Date agora = new Date();
