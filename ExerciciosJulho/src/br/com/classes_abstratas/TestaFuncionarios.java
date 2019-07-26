@@ -3,11 +3,13 @@ package br.com.classes_abstratas;
 public class TestaFuncionarios {
 	
 	public static void main(String[] args) {
-		Funcionarios fun = new Funcionarios();
+		Gerente fun = new Gerente();
 		
 		fun.setNome("Luca");
-		fun.setCodigo(150);
-
+		fun.setSalFuncionario(1500);
+		
+		System.out.println("nome: "+fun.getNome());
+		System.out.println("Salario: "+fun.getSalFuncionario());
 		
 	}
 	
