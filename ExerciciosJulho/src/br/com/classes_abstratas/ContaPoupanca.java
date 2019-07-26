@@ -1,0 +1,6 @@
+package br.com.classes_abstratas;
+
+public class ContaPoupanca extends Conta {
+	
+
+}

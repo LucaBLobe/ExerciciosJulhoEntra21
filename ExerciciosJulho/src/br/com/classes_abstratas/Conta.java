@@ -1,6 +1,6 @@
 package br.com.classes_abstratas;
 
-public class Conta {
+public abstract class Conta {
 	
 	private int numero;
 	private double saldo;

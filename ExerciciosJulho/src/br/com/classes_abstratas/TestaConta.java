@@ -1,12 +1,10 @@
 package br.com.classes_abstratas;
 
-import br.com.classes_abstratas.Conta;;
-
 public class TestaConta {
 	
 	public static void main(String[] args) {
 		
-		Conta c1 = new Conta();
+		ContaPoupanca c1 = new ContaPoupanca();
 		
 		c1.setNumero(10001);
 		c1.setSaldo(1000);
